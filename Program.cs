@@ -79,7 +79,7 @@ namespace Kod
             List<int> rndMRG = new List<int>();
             List<int> sorted;
 
-            for(int c = 0; c< 1000;c++){
+            for(int c = 0; c< antal;c++){
                 rndMRG.Add(rnd.Next(0, 100));
             }
 
